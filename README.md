@@ -1,2 +1,5 @@
-# dracula-theme
-Clone of dracula theme, html, css, responsive design
+## Instalar estas dependencias
+- gulp
+- gulp-autoprefixer
+- gulp-sass
+- sass
