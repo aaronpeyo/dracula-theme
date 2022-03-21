@@ -1,0 +1,27 @@
+$fuente-principal: 'Source Sans Pro', sans-serif;
+$fuente-secundaria: abril;
+
+@font-face {
+    font-family: abril;
+    src: url(../assets/fonts/abril-text-extrabold.otf);
+}
+
+$bg: #282a36;
+$rosa: #ff79c6;
+$negro: #000;
+$purpura: #383a59;
+$azul: #bd93f9;
+$blanco2: #bcc2cd;
+$blue: #0969da;
+$gris: #8e8f96;
+$white: #fff;
+$amarillo: #f1fa8c;
+$verde1: #8aff80;
+$verde2: rgba(80,250,123,.8);
+$verde3: rgba(80,250,123,.7);
+$naranja: rgba(255,184,108,.7);
+$blanco: #f2f2f2;
+
+$telefono: 480px;
+$tablet: 768px;
+$desktop: 1024px;

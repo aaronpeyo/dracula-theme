@@ -1,0 +1,39 @@
+@mixin sombra {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+}
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+@mixin boton {
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-radius: .35rem;
+    color: $negro;
+    background-color: $verde1;
+    padding: 1rem 1.8rem;
+    
+    &:hover {
+        background-color: $verde2;
+    }   
+
+}
+
+@mixin telefono {
+    @media (min-width: $telefono) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        @content;
+    }
+}
